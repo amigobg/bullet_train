@@ -1,4 +1,4 @@
-frozen_string_literal: true
+# frozen_string_literal: true
 
 if Rails.env.test? && defined?(FactoryBot)
   class ActiveSupport::TestCase
